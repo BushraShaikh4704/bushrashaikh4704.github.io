@@ -12,6 +12,7 @@ You can explore all sections of my portfolio:
 - 🛠 Skills
 - 📂 Projects
 - 📬 Contact
+
 (Hosted locally / to be deployed)
 
 ## 👩‍💻 About Me
