@@ -71,22 +71,3 @@ Check out my projects in the repository folders for more details.
 ---
 
 ⭐ This portfolio is **continuously evolving** as I learn new concepts, build projects, and grow my skills in **Data Science, Machine Learning, and AI**.
-
-
-
-# 🌟 My Portfolio
-
-Welcome to my portfolio! 👋
-
-I’m Shaikh Bushra, an aspiring Data Scientist passionate about solving real-world problems using data-driven approaches and Machine Learning.
-
-## 🌐 Portfolio Website
-
-You can explore all sections of my portfolio:
-- 🏠 Home
-- 👩‍💻 About
-- 🛠 Skills
-- 📂 Projects
-- 📬 Contact
-
-(Hosted locally / to be deployed)
