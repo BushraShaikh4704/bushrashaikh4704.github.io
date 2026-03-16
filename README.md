@@ -4,7 +4,7 @@ Welcome to my portfolio! 👋
 
 I’m **Shaikh Bushra**, an aspiring **Data Scientist** passionate about solving real-world problems using **data-driven approaches and Machine Learning**.
 
-# 🌐 Live Portfolio Website
+## 🌐 Live Portfolio Website
 
 🔗 **Visit my portfolio:**  
 👉 Link : [My Portfolio↗](https://bushrashaikh4704.github.io)
@@ -21,7 +21,7 @@ The website includes the following sections:
 - 📬 Contact  
 
 
-## 👩‍💻 About Me
+### 👩‍💻 About Me
 
 - 🎓 A Data Science Student, Interested in: Python, Data Science, Machine Learning. 
 - I have a strong interest in Data Science and Machine Learning.
@@ -29,7 +29,7 @@ The website includes the following sections:
 - 🚀 My goal is to grow into a professional AI & Data Science Engineer by applying modern technologies to impactful problems.
 - 📫 How to reach me: [My LinkedIn↗](https://www.linkedin.com/in/bushrashaikh4704)
 
-# 🛠 Skills
+## 🛠 Skills
 
 - 🐍 Python  
 - 🤖 Machine Learning  
@@ -62,7 +62,7 @@ Here are some of my projects:
 
 Check out my projects in the repository folders for more details.
 
-# 🤝 Connect With Me
+## 🤝 Connect With Me
 
 - [LinkedIn↗](https://www.linkedin.com/in/bushrashaikh4704)  
 - [GitHub↗](https://github.com/BushraShaikh4704)
