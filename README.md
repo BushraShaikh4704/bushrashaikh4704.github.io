@@ -4,12 +4,10 @@ Welcome to my portfolio! 👋
 
 I’m **Shaikh Bushra**, an aspiring **Data Scientist** passionate about solving real-world problems using **data-driven approaches and Machine Learning**.
 
----
-
 # 🌐 Live Portfolio Website
 
 🔗 **Visit my portfolio:**  
-👉 https://bushrashaikh4704.github.io
+👉 Link : [My Portfolio↗](https://bushrashaikh4704.github.io)
 
 Note: This portfolio is currently **a work in progress** and will continue to be updated with new projects and improvements.  
 For the best experience, please view it on a **desktop or laptop**, as it is not yet optimized for mobile devices.
@@ -22,20 +20,14 @@ The website includes the following sections:
 - 📂 Projects  
 - 📬 Contact  
 
----
 
-# 👩‍💻 About Me
+## 👩‍💻 About Me
 
-- 🎓 Data Science student interested in **Python, Data Science, and Machine Learning**
-- Strong interest in **building data-driven solutions**
-- Enjoy working with **datasets, building ML models, and solving analytical problems**
-- Passionate about **learning new technologies and improving technical skills**
-- 🚀 Goal: Become a **professional AI & Data Science Engineer**
-
-📫 Connect with me:  
-LinkedIn → https://www.linkedin.com/in/bushrashaikh4704
-
----
+- 🎓 A Data Science Student, Interested in: Python, Data Science, Machine Learning. 
+- I have a strong interest in Data Science and Machine Learning.
+- I enjoy building practical ML projects, experimenting with datasets, and - continuously improving my technical skills.
+- 🚀 My goal is to grow into a professional AI & Data Science Engineer by applying modern technologies to impactful problems.
+- 📫 How to reach me: [My LinkedIn↗](https://www.linkedin.com/in/bushrashaikh4704)
 
 # 🛠 Skills
 
@@ -46,47 +38,55 @@ LinkedIn → https://www.linkedin.com/in/bushrashaikh4704
 - 📚 Scikit-learn  
 - 🔧 Git & GitHub  
 
----
+## 📂 Projects
 
-# 📂 Projects
+Here are some of my projects:
 
-## 1️⃣ Fake Job Posting Detection using NLP
-- Developed a machine learning model to detect **fraudulent job postings**
-- Applied **text preprocessing and TF-IDF vectorization**
-- Trained a **Logistic Regression classifier**
-- Evaluated using **Accuracy, Precision, Recall, F1-Score, and Confusion Matrix**
-- Handled class imbalance using **Random Oversampling**
-
----
-
-## 2️⃣ Data Leakage Impact Study in Machine Learning
+1. **Fake Job Posting Detection using NLP –**
+- Developed a machine learning model to detect fraudulent job postings.
+- Performed text preprocessing and applied TF-IDF vectorization.
+- Trained a Logistic Regression classifier.
+- Evaluated using Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
+- Handled class imbalance using Random Oversampling.
+2. **Data Leakage Impact Study in Machine Learning –**
 - Designed a controlled experiment comparing:
-  - Proper ML pipeline
-  - Intentionally leaky pipeline
-- Implemented correct **Train–Validation–Test split using Scikit-learn**
-- Simulated **real-world data leakage scenarios**
-- Analyzed **performance inflation caused by improper preprocessing**
+- Proper ML pipeline
+- Intentionally leaky pipeline
+- Implemented correct Train–Validation–Test splitting using Scikit-learn.
+- Simulated real-world data leakage scenarios.
+- Analyzed performance inflation caused by improper preprocessing.
+3. **IoT Based Home Automation System –**
+- Built a smart system to control lights and fans using ESP8266 NodeMCU.
+- Implemented app-to-device communication using IoT concepts.
+- Gained hands-on experience with Electronics, System architecture, Automation systems
 
----
-
-## 3️⃣ IoT Based Home Automation System
-- Built a smart system to control **lights and fans using ESP8266 NodeMCU**
-- Implemented **app-to-device communication using IoT concepts**
-- Gained hands-on experience with **electronics, automation systems, and system architecture**
-
----
+Check out my projects in the repository folders for more details.
 
 # 🤝 Connect With Me
 
-💼 LinkedIn  
-https://www.linkedin.com/in/bushrashaikh4704
-
-💻 GitHub  
-https://github.com/BushraShaikh4704
-
-🌐 Portfolio  
-https://bushrashaikh4704.github.io
+- [LinkedIn↗](https://www.linkedin.com/in/bushrashaikh4704)  
+- [GitHub↗](https://github.com/BushraShaikh4704)
+- [Portfolio↗](https://bushrashaikh4704.github.io) 
 
 ---
 
 ⭐ This portfolio is **continuously evolving** as I learn new concepts, build projects, and grow my skills in **Data Science, Machine Learning, and AI**.
+
+
+
+# 🌟 My Portfolio
+
+Welcome to my portfolio! 👋
+
+I’m Shaikh Bushra, an aspiring Data Scientist passionate about solving real-world problems using data-driven approaches and Machine Learning.
+
+## 🌐 Portfolio Website
+
+You can explore all sections of my portfolio:
+- 🏠 Home
+- 👩‍💻 About
+- 🛠 Skills
+- 📂 Projects
+- 📬 Contact
+
+(Hosted locally / to be deployed)
