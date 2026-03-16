@@ -21,7 +21,7 @@ The website includes the following sections:
 - 📬 Contact  
 
 
-### 👩‍💻 About Me
+## 👩‍💻 About Me
 
 - 🎓 A Data Science Student, Interested in: Python, Data Science, Machine Learning. 
 - I have a strong interest in Data Science and Machine Learning.
