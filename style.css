@@ -674,7 +674,7 @@ z-index:0;
     top: -10px;
     right: 50%;
     transform: translateX(50%);
-    opacity: 0.8;
+    opacity: 0.6;
     z-index: 0;
   }
 
@@ -684,7 +684,7 @@ z-index:0;
     bottom: -20;
     left: 15%;
     transform: translateX(-50%);
-    opacity: 0.8;
+    opacity: 0.6;
     z-index: 0;
   }
 
@@ -698,23 +698,23 @@ z-index:0;
   }
 
   .circle {
-    transform: scale(0.8);
-    opacity: 0.8;
+    transform: scale(1);
+    opacity: 0.6;
     z-index: 0;
     pointer-events: none;
   }
 
   /* Top decorative circles */
   .c3 { top: -380px; left: -15px; }
-  .c5 { top: -178px; right: 40px; }
+  .c6 { top: -170px; right: 60px; }
   .c4 { top: -290px; left: 0px; }
-  .c2 { top: -370px; left: 60px; }
+  .c2 { top: -380px; left: 50px; }
 
   /* Bottom decorative circles */
   .c1 { bottom: 20px; right: -10px; }
-  .c6 { bottom: 90px; left: 20px; }
-  .c7 { top: -350px; right: 10px; }
-  .c8 { bottom: 290px; left: 75px; }
+  .c5 { bottom: 100px; left: 10px; }
+  .c7 { top: -40px; right: 0px; }
+  .c8 { bottom: 160px; left: 65px; }
 
   .big-circle,
   .half-circle,
@@ -755,23 +755,23 @@ z-index:0;
      ------------------------------------------------- */
   .section-decor .sec-circle {
     transform: scale(0.45);
-    opacity: 0.35;
+    opacity: 0.6;
     pointer-events: none;
     z-index: 0;
   }
 
   /* Bottom-right cluster */
-  .br-yellow-xl { bottom: -40px; right: -40px; }
-  .br-pink-lg   { bottom: -90px; right: 60px; }
-  .br-blue-md   { bottom: 10px;  right: 30px; }
-  .br-pink-sm   { bottom: 170px; right: 10px; }
-  .br-blue-sm   { bottom: 120px; right: 110px; }
+  .br-yellow-xl { bottom: -85px; right: -85px; }
+  .br-pink-lg   { bottom: -80px; right: 40px; }
+  .br-blue-md   { bottom: 55px;  right: -40px; }
+  .br-blue-sm   { bottom: 170px; right: 10px; }
+  .br-pink-sm   { bottom: 60px; right: 90px; }
 
   /* Top-left cluster */
-  .tl-blue-lg   { top: -60px; left: -60px; }
-  .tl-pink-md   { top: -10px; left: 50px; }
-  .tl-yellow-sm { top: 120px; left: 10px; }
-  .tl-pink-sm   { top: 110px; left: 40px; }
+  .tl-blue-lg   { top: -50px; left: -50px; }
+  .tl-pink-md   { top: -25px; left: 50px; }
+  .tl-yellow-sm { top: 80px; left: -10px; }
+  .tl-pink-sm   { top: 100px; left: 50px; }
 
   /* -------------------------------------------------
      7. SOCIAL ICONS & TYPOGRAPHY ADJUSTMENTS
