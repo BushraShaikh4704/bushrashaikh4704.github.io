@@ -525,3 +525,315 @@ z-index:0;
   top:160px;
   left:80px;
 }
+
+
+/* =====================================================
+   MOBILE RESPONSIVE DESIGN 
+   ===================================================== */
+   
+@media (max-width: 768px) {
+
+  /* -------------------------------------------------
+     1. NAVBAR: Seamless Blue & Pink Sections
+     ------------------------------------------------- */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px 0px 8px;
+    margin: 0;
+    background: #eac4c7;   /* Continuous pink background */
+    border: none;
+    box-shadow: none;
+    line-height: 0;        /* Prevents subpixel white lines */
+  }
+
+  /* Remove spacing between navbar sections */
+  .navbar > div {
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+  }
+
+  .nav-left {
+    background: #b3daee;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;  /* Top/Bottom: 20px, Left/Right: 20px */
+  }
+
+  .nav-left h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #e7c209;
+    line-height: 2;
+  }
+
+  /* Pink navigation links section */
+  .nav-center {
+    width: 100%;
+    background: transparent;   /* Inherits pink from navbar */
+    display: flex;
+    flex-wrap: nowrap;         /* Keep all items on one line */
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0;    /* Reduced height */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Hide scrollbar for cleaner appearance */
+  .nav-center::-webkit-scrollbar {
+    display: none;
+  }
+   /* Navigation links */
+  .nav-center a {
+    margin: 0;
+    padding: 6px 8px 0px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+  }
+
+/* Underline pseudo-element */
+.nav-center a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #e7c209; /* Underline color */
+  transition: width 0.3s ease;
+}
+
+/* Show underline on hover (desktop), focus and active (touch) */
+.nav-center a:hover::after,
+.nav-center a:focus::after,
+.nav-center a:active::after,
+.nav-center a.active::after {
+  width: 100%;
+}
+
+  /* Resume button styling */
+  .resume-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 15px;
+    margin: 0;
+    border: none;
+    border-radius: 30px;
+    white-space: nowrap;
+  }
+
+  /* -------------------------------------------------
+     2. ENABLE FULL PAGE SCROLLING
+     ------------------------------------------------- */
+  html, body {
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  section {
+    flex: 1;
+    min-height: auto;
+    padding: 60px 20px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  footer {
+    margin-top: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* -------------------------------------------------
+     3. HERO SECTION & PROFILE IMAGE
+     ------------------------------------------------- */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px 30px;
+    position: relative;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    z-index: 2;
+  }
+
+  .home-name {
+    font-size: 32px;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .hero-image img {
+    position: relative;
+    width: 80%;
+    max-width: 280px;
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+  }
+
+  /* -------------------------------------------------
+     4. HOME SECTION DECORATIVE CIRCLES
+     ------------------------------------------------- */
+  .big-circle {
+    width: 200px;
+    height: 200px;
+    bottom: 40px;
+    right: 50%;
+    transform: translateX(50%);
+    opacity: 0.6;
+    z-index: 0;
+  }
+
+  .half-circle {
+    width: 130px;
+    height: 65px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.6;
+    z-index: 0;
+  }
+
+  .dots {
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    right: 15px;
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  .circle {
+    transform: scale(0.5);
+    opacity: 0.6;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* Top decorative circles */
+  .c3 { top: -20px; left: 10px; }
+  .c7 { top: 10px; right: 40px; }
+  .c4 { top: 80px; left: 40px; }
+
+  /* Bottom decorative circles */
+  .c1 { bottom: -10px; right: 10px; }
+  .c2 { bottom: 120px; left: 10px; }
+  .c5 { bottom: 110px; right: 40px; }
+  .c6 { bottom: 160px; right: 60px; }
+  .c8 { bottom: 20px; left: 30px; }
+
+  .big-circle,
+  .half-circle,
+  .dots,
+  .sec-circle {
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .hero-text,
+  .project-card,
+  .social-icons,
+  footer {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* -------------------------------------------------
+     5. PROJECTS SECTION: STACKED CARDS
+     ------------------------------------------------- */
+  .project-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  #projects h2 {
+    text-align: center;
+  }
+
+  /* -------------------------------------------------
+     6. DECORATIVE CIRCLES FOR OTHER SECTIONS
+     ------------------------------------------------- */
+  .section-decor .sec-circle {
+    transform: scale(0.45);
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Bottom-right cluster */
+  .br-yellow-xl { bottom: -40px; right: -40px; }
+  .br-pink-lg   { bottom: -90px; right: 60px; }
+  .br-blue-md   { bottom: 10px;  right: 30px; }
+  .br-pink-sm   { bottom: 170px; right: 10px; }
+  .br-blue-sm   { bottom: 120px; right: 110px; }
+
+  /* Top-left cluster */
+  .tl-blue-lg   { top: -60px; left: -60px; }
+  .tl-pink-md   { top: -10px; left: 50px; }
+  .tl-yellow-sm { top: 120px; left: 10px; }
+  .tl-pink-sm   { top: 110px; left: 40px; }
+
+  /* -------------------------------------------------
+     7. SOCIAL ICONS & TYPOGRAPHY ADJUSTMENTS
+     ------------------------------------------------- */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .social-icons a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  p, li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
