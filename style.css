@@ -237,36 +237,6 @@ footer {
   margin: 0;
 }
 
-/* RESPONSIVE */
-@media (max-width: 992px){
-  .navbar {
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    text-align: center;
-  }
-  .hero {
-    flex-direction: column;
-    padding: 40px 20px;
-    text-align: center;
-    height: auto;
-  }
-  .hero-text {
-    margin-bottom: 40px;
-  }
-  .hero-image {
-    width: 300px;
-    height: 300px;
-  }
-  .circle {
-    width: 320px;
-    height: 320px;
-  }
-  .hero-image img {
-    width: 260px;
-  }
-}
-
 /* HERO TEXT */
 .small{
 font-size:40px;
@@ -530,7 +500,7 @@ z-index:0;
 /* =====================================================
    MOBILE RESPONSIVE DESIGN 
    ===================================================== */
-   
+
 @media (max-width: 768px) {
 
   /* -------------------------------------------------
@@ -546,6 +516,8 @@ z-index:0;
     border: none;
     box-shadow: none;
     line-height: 0;        /* Prevents subpixel white lines */
+    gap: 15px;
+    text-align: center;
   }
 
   /* Remove spacing between navbar sections */
@@ -579,7 +551,7 @@ z-index:0;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    padding: 0;    /* Reduced height */
+    padding: 0px 0px 5px;    /* Reduced height */
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -592,7 +564,7 @@ z-index:0;
   .nav-center a {
     margin: 0;
     padding: 6px 8px 0px;
-    font-size: 14px;
+    font-size: 15px;
     white-space: nowrap;
     text-decoration: none;
     color: inherit;
@@ -669,15 +641,10 @@ z-index:0;
     text-align: center;
     padding: 60px 20px 30px;
     position: relative;
-  }
-
-  .hero-text {
-    max-width: 100%;
-    z-index: 2;
-  }
-
-  .home-name {
-    font-size: 32px;
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+    height: auto;
   }
 
   .hero-image {
@@ -702,52 +669,52 @@ z-index:0;
      4. HOME SECTION DECORATIVE CIRCLES
      ------------------------------------------------- */
   .big-circle {
-    width: 200px;
-    height: 200px;
-    bottom: 40px;
+    width: 230px;
+    height: 230px;
+    top: -10px;
     right: 50%;
     transform: translateX(50%);
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 0;
   }
 
   .half-circle {
     width: 130px;
     height: 65px;
-    bottom: 0;
-    left: 50%;
+    bottom: -20;
+    left: 15%;
     transform: translateX(-50%);
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 0;
   }
 
   .dots {
-    width: 70px;
-    height: 70px;
-    top: 20px;
+    width: 83px;
+    height: 83px;
+    top: -8px;
     right: 15px;
-    opacity: 0.5;
+    opacity: 0.8;
     z-index: 0;
   }
 
   .circle {
-    transform: scale(0.5);
-    opacity: 0.6;
+    transform: scale(0.8);
+    opacity: 0.8;
     z-index: 0;
     pointer-events: none;
   }
 
   /* Top decorative circles */
-  .c3 { top: -20px; left: 10px; }
-  .c7 { top: 10px; right: 40px; }
-  .c4 { top: 80px; left: 40px; }
+  .c3 { top: -380px; left: -15px; }
+  .c5 { top: -178px; right: 40px; }
+  .c4 { top: -290px; left: 0px; }
+  .c2 { top: -370px; left: 60px; }
 
   /* Bottom decorative circles */
-  .c1 { bottom: -10px; right: 10px; }
-  .c2 { bottom: 120px; left: 10px; }
-  .c5 { bottom: 110px; right: 40px; }
-  .c6 { bottom: 160px; right: 60px; }
-  .c8 { bottom: 20px; left: 30px; }
+  .c1 { bottom: 20px; right: -10px; }
+  .c6 { bottom: 90px; left: 20px; }
+  .c7 { top: -350px; right: 10px; }
+  .c8 { bottom: 290px; left: 75px; }
 
   .big-circle,
   .half-circle,
