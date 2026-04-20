@@ -75,6 +75,10 @@ Check out my projects in the repository folders for more details.
 - [GitHub↗](https://github.com/BushraShaikh4704)
 - [Portfolio↗](https://bushrashaikh4704.github.io) 
 
+## Author
+
+Bushra Shaikh
+
 ---
 
 ⭐ This portfolio is **continuously evolving** as I learn new concepts, build projects, and grow my skills in **Data Science, Machine Learning, and AI**.
