@@ -1,3 +1,9 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)&nbsp;&nbsp;&nbsp;&nbsp;
+![HTML](https://img.shields.io/badge/HTML-5-orange)&nbsp;&nbsp;&nbsp;&nbsp;
+![CSS](https://img.shields.io/badge/CSS-3-blue)&nbsp;&nbsp;&nbsp;&nbsp;
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)&nbsp;&nbsp;&nbsp;&nbsp;
+[![Live Website](https://img.shields.io/badge/Live-Website-success)]([YOUR_PORTFOLIO_LINK](https://bushrashaikh4704.github.io))
+
 # 🌟 My Portfolio
 
 Welcome to my portfolio! 👋  
@@ -9,9 +15,6 @@ I’m **Shaikh Bushra**, an aspiring **Data Scientist** passionate about solving
 🔗 **Visit my portfolio:**  
 👉 Link : [My Portfolio↗](https://bushrashaikh4704.github.io)
 
-Note: This portfolio is currently **a work in progress** and will continue to be updated with new projects and improvements.  
-For the best experience, please view it on a **desktop or laptop**, as it is not yet optimized for mobile devices.
-
 The website includes the following sections:
 
 - 🏠 Home  
@@ -20,6 +23,10 @@ The website includes the following sections:
 - 📂 Projects  
 - 📬 Contact  
 
+## 📄 License
+
+This project is licensed under the MIT License 
+see the [LICENSE↗](LICENSE) file for details.
 
 ## 👩‍💻 About Me
 
