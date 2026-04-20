@@ -1,8 +1,8 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)&nbsp;&nbsp;&nbsp;&nbsp;
-![HTML](https://img.shields.io/badge/HTML-5-orange)&nbsp;&nbsp;&nbsp;&nbsp;
-![CSS](https://img.shields.io/badge/CSS-3-blue)&nbsp;&nbsp;&nbsp;&nbsp;
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)&nbsp;&nbsp;&nbsp;&nbsp;
-[![Live Website](https://img.shields.io/badge/Live-Website-success)]([YOUR_PORTFOLIO_LINK](https://bushrashaikh4704.github.io))
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![HTML](https://img.shields.io/badge/HTML-5-orange)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![CSS](https://img.shields.io/badge/CSS-3-blue)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Live Website](https://img.shields.io/badge/Live-Website-success)](https://bushrashaikh4704.github.io)
 
 # 🌟 My Portfolio
 
