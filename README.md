@@ -79,6 +79,4 @@ Check out my projects in the repository folders for more details.
 
 Bushra Shaikh
 
----
-
 ⭐ This portfolio is **continuously evolving** as I learn new concepts, build projects, and grow my skills in **Data Science, Machine Learning, and AI**.
